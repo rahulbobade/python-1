@@ -1,3 +1,4 @@
+#This is a platform independet script(you can run on any operating system)
 import os 
 path=input("Enter your path: ")
 if os.path.exists(path):
