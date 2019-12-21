@@ -13,4 +13,10 @@ if shell=True then your cmd is a string (as your os command)
 if shell=False then your cmd is a list.
 
 shell=False dont work on os environment variable.
+
+cmd="ls -lrth"  ==>shell=True
+shell=False  ==> cmd="ls -lrth".split()     or    ['ls','-lrth']
+,
+''
+
 '''
