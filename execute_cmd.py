@@ -16,7 +16,7 @@ shell=False dont work on os environment variable.
 
 cmd="ls -lrth"  ==>shell=True
 shell=False  ==> cmd="ls -lrth".split()     or    ['ls','-lrth']
-,
-''
+
+shell=True always in case of windows
 
 '''
