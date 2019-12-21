@@ -10,7 +10,7 @@ print(f'The error : \n{err}')
 
 '''
 if shell=True then your cmd is a string (as your os command)
-if shell=False then your cmd is a list 
+if shell=False then your cmd is a list.
 
 shell=False dont work on os environment variable.
 '''
